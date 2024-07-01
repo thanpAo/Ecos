@@ -1,1 +1,5 @@
 Server/node_modules
+ClienteUnity/Service/apiClient.cs.meta
+ClienteUnity/Service/messageApiresponse.cs.meta
+ClienteUnity/Service/npcApiResponse.cs.meta
+ClienteUnity/Service/npcService.cs.meta
