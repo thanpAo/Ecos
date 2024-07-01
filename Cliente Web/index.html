@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat con NPCs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Juego de Chat con NPCs</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#chat">NPCs</a></li>
+                <li><a href="https://github.com/JesseAngeles/Ecos/tree/master">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="npc-section">
+            <h2>Presentación de NPCs</h2>
+            <div class="npc-cards" id="npc-list">
+                <!-- Aquí se mostrarán las tarjetas de los NPCs -->
+            </div>
+            <div class="npc-buttons">
+                <button id="add-npc">Agregar NPC</button>
+            </div>
+        </section>
+        <section id="chat" class="chat-section">
+            <div class="chat-window" id="chat-window">
+                <div class="conversation" id="conversation"></div>
+                <form id="message-form">
+                    <input type="text" id="message" placeholder="Escribe tu mensaje...">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <aside class="sidebar">
+                <h3>NPCs seleccionados</h3>
+                <ul id="selected-npc-list">
+                    <!-- Lista de NPCs seleccionados -->
+                </ul>
+                <button id="reset">Reiniciar</button>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Juego de Chat con NPCs. Todos los derechos reservados.</p>
+        <p>Desarrollado por [THANPAO]</p>
+        <p>Contacto: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
